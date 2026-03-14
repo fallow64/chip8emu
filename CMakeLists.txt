@@ -47,7 +47,7 @@ if (USE_QT)
 
 else()
     # SDL3 build (default)
-    set(SDL_SOURCES src/sdl3)
+    set(SDL_SOURCES src/sdl3/main.cpp src/sdl3/platform_sdl3.cpp)
 
     add_executable(chip8emu ${CORE_SOURCES} ${SDL_SOURCES})
     target_include_directories(chip8emu PRIVATE ${INCLUDE_DIRS})

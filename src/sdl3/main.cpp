@@ -1,7 +1,7 @@
 #include <chip8emu.hpp>
 #include <chrono>
 #include <iostream>
-#include <platform_sdl3.hpp>
+#include "platform_sdl3.hpp"
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {

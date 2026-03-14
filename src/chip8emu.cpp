@@ -1,5 +1,6 @@
 #include "chip8emu.hpp"
 #include <chrono>
+#include <cstring>
 #include <fstream>
 #include <iostream>
 
